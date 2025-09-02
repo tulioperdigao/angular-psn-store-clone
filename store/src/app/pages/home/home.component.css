@@ -9,4 +9,10 @@
 	flex-wrap: wrap;
 }
 
+@media screen and (max-width: 500px) {
+	.home__container {
+		padding-top: 100px;
+	}
+}
+
 

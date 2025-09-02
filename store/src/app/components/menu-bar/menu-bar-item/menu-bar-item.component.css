@@ -28,3 +28,9 @@
 	color: blue;
 	font-weight: 600;
 }
+
+@media screen and (max-width: 500px) {
+	.menu-bar__item {
+		margin: 0;
+	}
+}
