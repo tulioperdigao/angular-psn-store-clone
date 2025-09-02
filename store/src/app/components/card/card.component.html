@@ -1,9 +1,17 @@
 <a href="#" class="card__container">
 	<img
 		class="card__image"
-		src="assets/bt-5.jpg"
+		[src]= [gameCover]
 		alt=""
 	>
-	<app-card-label gameLabel="Digital"></app-card-label>
-	<app-card-pricing></app-card-pricing>
+	<app-card-label
+		gameLabel="{{ gameLabel }}"
+	>
+	</app-card-label>
+	<app-card-pricing
+		gameTitle="{{ gameTitle }}"
+		gameType="{{ gameType }}"
+		gamePrice="{{ gamePrice }}"
+	>
+	</app-card-pricing>
 </a>
